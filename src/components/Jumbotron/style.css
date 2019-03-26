@@ -1,0 +1,17 @@
+/* #jumbo{
+    background-Image: url(/Images/Leaves.jpg);
+    height: 800;
+    background-Size: cover; 
+    overflow: hidden;
+    font-size: 1000; 
+    text-align: center; 
+    padding: 3000; 
+    color: white;
+}
+
+#red {
+    color: red;
+}
+/* h1 {
+    margin-top: 0;
+} */ 

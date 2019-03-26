@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { Col, Row, Container } from "../components/Grid";
+import Jumbotron from "../components/Jumbotron";
+
 
 
 class Home extends Component {
@@ -12,8 +14,13 @@ class Home extends Component {
   render() {
     return (
       <Container fluid>
+       <Jumbotron >
+          <h1> Alexis Bellinger </h1>
+          <h3> Full-Stack Web Developer </h3>
+          </Jumbotron>
         <Row>
           <Col size="md-12">
+         
             <h1>Home Page</h1>
           </Col>
         </Row>
