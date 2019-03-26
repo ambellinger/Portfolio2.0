@@ -2,14 +2,18 @@ import React from 'react';
 import "./style.css";
 
 
+
 function Jumbotron ({children}) {
   return (
+   
     <div 
     style={styles.container}
     className="jumbotron" 
     id="jumbo"
     >
+ 
     {children}
+   
     </div>
   )
 }
@@ -21,10 +25,15 @@ const styles = {
      height: 800,
      backgroundSize: 'cover',
      overflow: 'hidden',
-     fontSize: 75, 
+     fontSize: 60, 
+     letterSpacing: 3,
+     fontFamily: 'Titillium Web',
      textAlign: "center", 
      padding: 150, 
-     color: "white"
+     color: "white",
+     textshadow: 5 ,
+     
+   
      
   }
 };
