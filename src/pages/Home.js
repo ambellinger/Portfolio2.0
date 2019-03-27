@@ -15,8 +15,10 @@ class Home extends Component {
     return (
       <Container fluid>
        <Jumbotron >
-          <h1> Alexis Bellinger </h1>
-          <h3> Full-Stack Web Developer </h3>
+          <h1> Alexis </h1>
+          <h1>Bellinger </h1>
+          <br></br>
+          <h5> Full-Stack Web Developer </h5>
           </Jumbotron>
         <Row>
           <Col size="md-12">

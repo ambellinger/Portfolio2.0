@@ -14,24 +14,25 @@ function Jumbotron ({children}) {
  
     {children}
    
+   <hr></hr>
     </div>
+    
   )
 }
 
 
 const styles = {
     container: {
-     backgroundImage: 'url(/Images/Leaves.jpg)',
+     backgroundImage: 'url(/Images/Flowers.jpg)',
      height: 800,
      backgroundSize: 'cover',
      overflow: 'hidden',
      fontSize: 60, 
      letterSpacing: 3,
-     fontFamily: 'Titillium Web',
-     textAlign: "center", 
+     textAlign: "right", 
      padding: 150, 
-     color: "white",
-     textshadow: 5 ,
+     color: "#DCDCDC",
+ 
      
    
      
