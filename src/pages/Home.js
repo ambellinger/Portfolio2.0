@@ -5,6 +5,7 @@ import Jumbotron from "../components/Jumbotron";
 //import About from "../pages/About";
 import About from "../components/About"
 import Form from "../components/Form";
+import Contact from "../pages/Contact"
 
 
 
@@ -25,14 +26,13 @@ class Home extends Component {
           </Jumbotron>
       
       
-          <h3> About </h3>
+          {/* <h3> About </h3> */}
           <About >
           </About>
           <hr></hr>
 
-          <h3> Contact </h3>
-          <Form >
-          </Form>
+          {/* <h3> Contact </h3> */}
+          <Contact></Contact>
           
             {/* <Link to="/">← Home</Link> */}
       
