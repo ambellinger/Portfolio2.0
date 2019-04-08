@@ -1,7 +1,10 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 import { Col, Row, Container } from "../components/Grid";
 import Jumbotron from "../components/Jumbotron";
+//import About from "../pages/About";
+import About from "../components/About"
+import Form from "../components/Form";
 
 
 
@@ -13,29 +16,26 @@ class Home extends Component {
 
   render() {
     return (
-      <Container fluid>
+      <Container >
        <Jumbotron >
           <h1> Alexis </h1>
           <h1>Bellinger </h1>
           <br></br>
           <h5> Full-Stack Web Developer </h5>
           </Jumbotron>
-        <Row>
-          <Col size="md-12">
-         
-            <h1>Home Page</h1>
-          </Col>
-        </Row>
-        <Row>
-          <Col size="md-10 md-offset-1">
-          <h2>blah blah blah blah</h2>
-          </Col>
-        </Row>
-        <Row>
-          <Col size="md-2">
-            <Link to="/">← Home</Link>
-          </Col>
-        </Row>
+      
+      
+          <h3> About </h3>
+          <About >
+          </About>
+          <hr></hr>
+
+          <h3> Contact </h3>
+          <Form >
+          </Form>
+          
+            {/* <Link to="/">← Home</Link> */}
+      
       </Container>
     );
   }

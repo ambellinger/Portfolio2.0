@@ -32,9 +32,6 @@ const styles = {
      textAlign: "right", 
      padding: 150, 
      color: "#DCDCDC",
- 
-     
-   
      
   }
 };

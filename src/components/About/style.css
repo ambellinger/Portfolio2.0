@@ -1,0 +1,37 @@
+.grid {
+    display: grid;
+    grid-template-columns: 10% 40% 40% 10%;
+    grid-template-rows: auto;
+    grid-gap: 1em;
+    
+}
+
+header {
+    grid-column: 1 / 4;
+    color: red;
+
+}
+
+aside {
+    padding:  25px 0px 200px 0px;
+    margin: 25px 0px 200px 0px;
+}
+
+.sidebar-left {
+    margin: 0px 0px 0px 0px;
+}
+
+.sidebar-right {
+    margin: 0px 0px 0px 0px;
+}
+
+/* I need to change this because it's not solid at all :/ */
+.angel {
+    /* background-image: url(/Images/BWAngel.jpg); */
+    background-repeat:no-repeat;
+}
+
+
+/* @media (min-width: 700px) {
+    
+  } */
