@@ -4,8 +4,9 @@ import { Col, Row, Container } from "../components/Grid";
 import Jumbotron from "../components/Jumbotron";
 //import About from "../pages/About";
 import About from "../components/About"
-import Form from "../components/Form";
+// import Form from "../components/Form";
 import Contact from "../pages/Contact"
+import SkillSection from "../pages/SkillSection"
 
 
 
@@ -24,7 +25,7 @@ class Home extends Component {
           <br></br>
           <h5> Full-Stack Web Developer </h5>
           </Jumbotron>
-      
+          <SkillSection></SkillSection>
       
           {/* <h3> About </h3> */}
           <About >

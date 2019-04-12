@@ -62,9 +62,6 @@ h3 {
    opacity: 0.5;
 }
 
-#textAreaForm {
-    height: 200px;
-}
 #inputForm:focus,
 #textAreaForm:focus,
 .form-control:focus, 

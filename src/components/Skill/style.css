@@ -1,0 +1,29 @@
+/* .grid {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto;
+    grid-gap: 1em;   
+} */
+
+
+.list-group
+ {
+   list-style: none;
+   display: inline;
+   display: flex;
+   justify-content: center;
+  
+}
+
+li img {
+    border-radius: 50%;
+    display: inline;
+    margin: 5%;
+  
+}
+
+.list-group-item {
+    border-radius: 50%;
+    display: inline;
+    margin: 3%;
+}
