@@ -6,7 +6,7 @@ import Jumbotron from "../components/Jumbotron";
 import About from "../components/About"
 // import Form from "../components/Form";
 import Contact from "../pages/Contact"
-import SkillSection from "../pages/SkillSection"
+import SkillSection from "../components/Skill"
 
 
 

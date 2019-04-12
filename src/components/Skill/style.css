@@ -12,6 +12,8 @@
    display: inline;
    display: flex;
    justify-content: center;
+ 
+  
   
 }
 
@@ -20,10 +22,49 @@ li img {
     display: inline;
     margin: 5%;
   
+    
+  
 }
 
 .list-group-item {
     border-radius: 50%;
     display: inline;
     margin: 3%;
+    height:200px;
+    width: 200px;
+    text-align: center;
+    color: #DCDCDC;
+    font-weight: bold;
+    font-weight: 600; 
+text-shadow: 0px 2px 3px #000000; 
+font-size: 25px;
 }
+
+.web {
+    background-image: url(/Images/LongLeaves3.jpg); 
+}
+
+.writing {
+    background-image: url(/Images/Stars3.jpg); 
+}
+
+.compassion {
+    background-image: url(/Images/YellowFlowers3.jpg); 
+}
+
+.teamwork {
+    background-image: url(/Images/PurpleFlowers3.jpg); 
+}
+
+span {
+    position: relative;
+    top: 35%;
+
+}
+
+/* span {
+    color: red;
+    display: flex;
+   justify-content: center;
+   text-align: center;
+} */
