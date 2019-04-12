@@ -7,6 +7,7 @@ import About from "../components/About"
 // import Form from "../components/Form";
 import Contact from "../pages/Contact"
 import SkillSection from "../components/Skill"
+import Portfolio from "../pages/Portfolio"
 
 
 
@@ -31,7 +32,7 @@ class Home extends Component {
           <About >
           </About>
           <hr></hr>
-
+          <Portfolio></Portfolio>
           {/* <h3> Contact </h3> */}
           <Contact></Contact>
           
