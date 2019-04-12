@@ -14,8 +14,8 @@ export function PortfolioListItem({ props }) {
     return <li className="list-group-item">    
     <div>
         <div className="img-container">
-            {/* <h1>{props.name}</h1> */}
-            {/* <img alt={props.name} src={props.image} /> */}
+            <h1>{props.name}</h1> 
+            <img alt={props.name} src={props.image} /> 
         </div>
     </div>
     </li>;
