@@ -30,26 +30,6 @@ class About extends Component {
       
       </div>
 
-
-
-//W/ Bootstrap
-      // <Container fluid>
-      //   <Row>
-      //     <Col size="md-12">
-      //       <h1>About Page</h1>
-      //     </Col>
-      //   </Row>
-      //   <Row>
-      //     <Col size="md-6">
-      //     <h2>blah blah blah blah</h2>
-      //     </Col>
-        
-      //     <Col size="md-6">
-      //     <h2>blah blah blah blah2</h2>
-      //       <Link to="/">← Home</Link>
-      //     </Col>
-      //   </Row>
-      // </Container>
     );
   }
 }

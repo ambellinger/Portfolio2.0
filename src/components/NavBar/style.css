@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed');
+
+nav { 
+  background-color:  black;
+}
+
+ul {
+    margin: 0;
+    text-align: right;
+}
+
+li {
+    display: inline-block;
+    padding: 20px;
+    text-align: right;
+}
+.navbar-brand{
+    color: black;
+
+}
+
+.nav-item{
+  color: white;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 18px;
+  float: right!important;
+  
+}
+
+#itinerary,
+#submitReviewButton {
+  float: right;
+  margin-left: 0; 
+}
+
+.text-secondary {
+  color: white!important;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 18px;
+  text-align: right;
+  /* padding: 20px; */
+  display: inline-block;
+}
+
+
+a:hover{ 
+  text-decoration: none!important;
+  color: black;
+};
+
+/* #itinerary {
+  padding-right: 20px;
+} */
+
+
+@media screen and (max-width: 980px) {
+  .nav-item {
+    justify-content:space;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav-item {
+    justify-content:space;
+  }
+}
+
+
+
+@media screen and (max-width: 640px) {
+  .nav-item {
+    justify-content:space;
+  }
+
+}

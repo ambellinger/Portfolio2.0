@@ -1,37 +1,142 @@
 
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 @import url('https://fonts.googleapis.com/css?family=Marck+Script');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:700|Open+Sans:800');
 
 
 
-h1:first-letter{
+.jumbotron {
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* h1:first-letter{
     text-transform: uppercase;
     font-size: 70;
-}
+} */
+
 #jumbo h1 {
 color: #DCDCDC;
-font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+font-family: 'Source Code Pro', monospace;
 letter-spacing:0.1em;
-text-align: right;
-margin: 40px auto;
+
+margin: 0;
 text-transform: lowercase;
 line-height: 145%;
 font-variant: small-caps;
+color: white;
+/* color:  #F7F145; */
 
-color:#DCDCDC;
 /* color: transparent; */
-font-weight: 100; margin-bottom: 0;
+/* font-weight: 100; margin-bottom: 0; */
 /* text-shadow: 0px 2px 3px #4E443C;  */
+/* 
+text-shadow: 0px 2px 3px #DCDCDC;  */
 
-text-shadow: 0px 2px 3px #DCDCDC; 
+font-weight: 100; margin-bottom: 0;
+text-shadow: 0px 20px 30px black; 
 
 
 }
 
 #jumbo h5{
-    font-style: italic;
-    color:#DCDCDC;
+    /* font-style: italic; */
+    color:white;
 /* color: transparent; */
 font-weight: 600; margin-bottom: 0;
 text-shadow: 0px 2px 3px #000000; 
+font-family: 'Source Code Pro', monospace;
+}
+
+.jumboTitle {
+    
+    
+    margin: 20px;
+    /* margin-top: 2%; */
+    /* margin-top: 50px; */
+    width: 100%;
+    padding-right: 66%;
+    padding-left: 2%;
+    height: 100%;
+    text-align: left;
+}
+
+.tab {
+    padding-left: 20%;
+}
+
+/* Stuff from the navbar css */
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed');
+
+nav { 
+ background: rgba(255,255,255, 0.001);;
+}
+
+ul {
+    margin: 0;
+    text-align: right;
+    text-shadow: 0px 2px 3px white; 
+}
+
+li {
+    display: inline-block;
+    padding: 20px;
+    text-align: right;
+ 
+}
+.navbar-brand{
+    color: black;
+
+}
+/* 
+.nav-item{
+  color: black;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 18px;
+  float: right!important;
+  
+} */
+
+.text-secondary {
+  color: #BAC8D9!important;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  text-align: right;
+  /* padding: 20px; */
+  display: inline-block;
+  font-weight: 600; margin-bottom: 0;
+text-shadow: 0px 2px 3px black; 
+}
+
+
+a:hover{ 
+  text-decoration: none!important;
+  color: black;
+};
+
+/* #itinerary {
+  padding-right: 20px;
+} */
+
+
+@media screen and (max-width: 980px) {
+  .nav-item {
+    justify-content:space;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav-item {
+    justify-content:space;
+  }
+}
+
+
+
+@media screen and (max-width: 640px) {
+  .nav-item {
+    justify-content:space;
+  }
+
 }
