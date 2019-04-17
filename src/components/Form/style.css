@@ -1,31 +1,30 @@
 @import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond');
 
-
-
-
 .grid {
-    display: grid;
-    grid-template-columns: 10% 40% 40% 10%;
+    /* display: grid;
+    grid-template-columns: 3% 3% 94%;
     grid-template-rows: auto;
-    grid-gap: 1em;   
-}
+    grid-gap: 1em;    */  
+} 
 
 header {
-    grid-column: 1 / 4;
+    grid-column: 1 / 3;
     color: red;
 }
 
 
 aside {
-    padding:  25px 0px 200px 0px;
-    margin: 25px 0px 200px 0px;
+    /* padding:  25px 0px 200px 0px;
+    margin: 0px 0px 0px 0px; */
     font-family: 'Cormorant Garamond', serif;
-}
+    width: 25%; 
+} 
 
 
 h3 {
  text-align: center;   
- text-decoration: underline;
+ text-decoration: none;
+ color: white;
 }
 
 #inputForm,
@@ -35,9 +34,10 @@ h3 {
     justify-content: center;
     padding: 7px;
     margin: 5%;
-    border-bottom: 1px solid #888;
+    border-bottom: 1px solid #FFF;
     background: transparent;
     font-family: 'Cormorant Garamond', serif;
+   
    
     
 }
@@ -45,17 +45,23 @@ h3 {
 .btn {
     width: 50px;
     height: 50px;
-    float: left;
+    /* float: left; */
     border-radius: 50%;
     /* margin: 0; */
 }
 
 
+#inputForm {
+    color: white;
+}
+
 .form-control {
     border: none;
     text-align: center;
     font-family: 'Cormorant Garamond', serif;
-    width: 100%;
+    color: white;
+  
+    /* width: 10%; */
 }
 
 .form-control:hover {
@@ -101,10 +107,68 @@ transform: translateX(-2px);
 opacity: 0.5;
 }
 
+.contact-container{
+    padding: 20px;
+    background-image: url(/Images/atmosphere.jpg); 
+    height: 100%;
+    width: 100%;
+    -webkit-box-shadow: 4px 4px 8px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 4px 4px 8px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: absolute;
+   
 
+   
+}
 
+.formstyle {
+    width: 40%;
+   background-color: rgb(107,123,136, 0.3);
+
+    /* float:right;  */
+    /* margin-left: 25%; */
+    /* margin-right: 25%; */
+    height: 100%;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.contact-left {
+    width: 20%;
+    background-color: rgb(107,123,136, 0.6);
+    height: 100%;
+    display: inline-block;
+    position: relative;
+    /* float: right; */
+    /* margin-right: 0; */
+}
 /* MOBILE RESPONSIVE CODE */
 
 /* @media (min-width: 700px) {
     
   } */
+
+
+  textarea {
+      width: 100%;
+      
+  }
+
+  input[type="text"], textarea {
+    background: transparent;
+  
+    /* background-color : #d1d1d1;  */
+  
+  }
+
+   
+  input[type="text"], input {
+    background: transparent;
+    /* background-color : #d1d1d1;  */
+  
+  }
+
+  input::placeholder,
+  textarea::placeholder {
+    color: white;
+  }

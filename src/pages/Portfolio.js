@@ -77,12 +77,12 @@ class Portfolio extends Component {
     return (
      
        <div>
-            <h2>Portfolio Page</h2>
+      
         
        
          <List  portfolioItems={portfolioItems} />
 
-
+         
 
          </div>
     );

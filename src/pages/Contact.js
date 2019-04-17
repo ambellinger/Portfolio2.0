@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import "../components/Form/style.css";
 import { Input, TextArea, FormBtn } from "../components/Form";
 // import { Link } from "react-router-dom";
+import { Col, Row, Container } from "../components/Grid";
+
 
 
 
@@ -31,22 +33,7 @@ class Contact extends Component {
     if (this.state.name) {
       alert("Form Submitted" + this.state.name + this.state.email + this.state.message)
       this.clearForm()
-      // API.saveBuilding({
-      //     name: this.state.name,
-      //     architect: this.state.architect,
-      //     neighborhood: this.state.neighborhood,
-      //     address: this.state.address,
-      //     image: this.state.image,
-      //     description: this.state.description,
-      //     year: this.state.year,
-      //     rating: this.state.rating,
-      //     created_by: sessionStorage.getItem("userid")
-
-
-      // })
-      // .then(this.clearForm())
-
-      // .catch(err => console.log(err));
+   
     }
   };
 
@@ -62,16 +49,17 @@ class Contact extends Component {
 
   render() {
     return (
-      //Attempting CSS Grid   
-      <div className="grid">
-        {/* <header>About</header> */}
-        <aside></aside>
-        <aside class="sidebar-left tree" >
-          <img src={process.env.PUBLIC_URL + '/Images/BWTree.jpg'} alt="Statue of black and white angel" />
-        </aside>
-
-        <aside class="sidebar-right">
+      <Container>
+     <div className="contact-container">
+    
+    <Row>
+    <Col size="md-3"> Here</Col> 
+        <Col size="md-3"> Here2</Col> 
+       <div className="formstyle">
         {/*Form Area*/}
+
+       
+        <Col size="md-1"> 
         <h3>Contact</h3>
           <Input
             value={this.state.name}
@@ -95,12 +83,16 @@ class Contact extends Component {
           >
           <i class="fas fa-paper-plane"></i>
           </FormBtn>
-       
+          </Col>
 
-        </aside>
-        <aside></aside>
-        <hr></hr>
-      </div>
+          </div>
+          </Row>
+          </div>
+ 
+
+         
+          </Container>
+  
 
     );
   }
