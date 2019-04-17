@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+/* @import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed');
 
 nav { 
@@ -40,21 +40,21 @@ li {
   font-size: 18px;
   text-align: right;
   /* padding: 20px; */
-  display: inline-block;
-}
+  /* display: inline-block;
+} */
 
-
+/* 
 a:hover{ 
   text-decoration: none!important;
   color: black;
-};
+}; */
 
 /* #itinerary {
   padding-right: 20px;
 } */
 
 
-@media screen and (max-width: 980px) {
+/* @media screen and (max-width: 980px) {
   .nav-item {
     justify-content:space;
   }
@@ -73,4 +73,4 @@ a:hover{
     justify-content:space;
   }
 
-}
+} */ 

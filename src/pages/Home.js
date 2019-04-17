@@ -36,14 +36,10 @@ class Home extends Component {
 
          <h1>Alexis Bellinger</h1>
          
-         <h1></h1>
+        
         
           <h5 class="tab">Fullstack Web Development</h5> 
-         
-         
-        
-{/*  
-          <h5>Full-Stack Web Developer </h5> */}
+
           </div>
           </div> 
        
@@ -51,10 +47,11 @@ class Home extends Component {
 
 
           </Jumbotron>
+          <SkillSection></SkillSection>
           <About >
           </About>
 <hr></hr>
-          <SkillSection></SkillSection>
+        
       
 
           <Portfolio></Portfolio>
